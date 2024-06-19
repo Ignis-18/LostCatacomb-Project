@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3047067050505840923}
   - component: {fileID: 3047067050505840903}
   - component: {fileID: 3047067050505840902}
+  - component: {fileID: -8694974154747526085}
   m_Layer: 0
   m_Name: Point
   m_TagString: Coleccionable
@@ -147,6 +148,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c99a4cffa6c67244806fbc74c99ac22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-8694974154747526085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3047067050505840925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8ce5c700fe108f4a99b40c56b77c571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  destination: {fileID: 0}
+  playerg: {fileID: 0}
 --- !u!1 &3362187225769577604
 GameObject:
   m_ObjectHideFlags: 0
